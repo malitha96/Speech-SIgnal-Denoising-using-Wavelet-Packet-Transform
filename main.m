@@ -5,9 +5,7 @@ clc
 
 db_val='10';
 s_or_h='s'; 
-a='D:\sorted_audios\';
-b=strcat('punchi_maluo','_',db_val,'db.wav');
-path=strcat(a,b);
+
 
 [clear_speech,fs]=audioread('D:\sorted_audios\clear.wav');
 [noisy_speech,Fs]=audioread(path);
